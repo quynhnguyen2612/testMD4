@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Controller
-@RequestMapping("/Countries")
+@RequestMapping("")
 @CrossOrigin("*")
 
 public class CountryController {

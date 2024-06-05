@@ -51,11 +51,6 @@ public class CityController {
     }
 
 
-    @GetMapping("{id}")
-    public ResponseEntity<City> findById(@PathVariable Long id) {
-        City student = cityService.findById(id);
-        return new ResponseEntity<>(student, HttpStatus.OK);
-    }
 
 
 
