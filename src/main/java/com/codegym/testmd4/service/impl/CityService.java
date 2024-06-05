@@ -36,15 +36,4 @@ public class CityService implements ICityService {
         cityRepository.deleteById(id);
     }
 
-
-    @Override
-    public List<City> findByNameContaining(String name) {
-        return cityRepository.findByNameContaining(name);
-    }
-
-    @Override
-    public City findByIdCustom(Long id) {
-        return cityRepository.findByIdCustom(id);
-    }
-
     }
